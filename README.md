@@ -1,5 +1,7 @@
 # MyPortfolio
 
+I started this project to showcase a little bit about me and some projects I've worked on.
+
 ## Development server
 
 To start a local development server, run:
