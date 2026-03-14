@@ -7,10 +7,11 @@ I started this project to showcase a little bit about me and some projects I've 
 To start a local development server, run:
 
 ```bash
-ng serve
+npm start
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Once the server is running, then click `http://localhost:4200/`. 
+The application will automatically reload whenever you modify any of the source files.
 
 ## Code scaffolding
 

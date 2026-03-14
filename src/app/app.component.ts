@@ -1,13 +1,16 @@
 import { Component, signal } from '@angular/core';
-import { HeaderComponent } from './header.component';
+import { HeaderComponent } from './header/header.component';
+import { bootstrapApplication } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [],
+  imports: [HeaderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
   protected readonly title = signal('World');
 }
+
+
