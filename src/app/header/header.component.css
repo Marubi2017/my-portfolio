@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: center;
+    /* center the content */
+    padding: 16px 24px;
+    width: 100%;
+}
+
+.header-btn {
+    background-color: transparent;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.header-btn:hover {
+    background-color: lightblue;
+}
+
+.button-row {
+    display: flex;
+    gap: 24px;
+}
+
+.button-row button {
+    border-radius: 999px;
+}

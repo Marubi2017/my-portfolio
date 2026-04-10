@@ -1,2 +1,52 @@
-# my-portfolio
-I started this project to showcase a little bit about me and some projects I've worked on
+# MyPortfolio
+
+I started this project to showcase a little bit about me and some projects I've worked on.
+
+## Development server
+
+To start a local development server, run:
+
+```bash
+npm start
+```
+
+Once the server is running, then click `http://localhost:4200/`. 
+The application will automatically reload whenever you modify any of the source files.
+
+## Code scaffolding
+
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+
+```bash
+ng generate component component-name
+```
+
+## Building
+
+To build the project run:
+
+```bash
+ng build
+```
+
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+## Running unit tests
+
+To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
