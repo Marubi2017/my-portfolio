@@ -10,6 +10,12 @@ interface Experience {
   highlights: string[];
 }
 
+interface Projects {
+  title: string;
+  description: string;
+  link: string;
+}
+
 @Component({
   selector: 'app-project',
   standalone: true,
@@ -56,17 +62,18 @@ export class ProjectComponent {
         'Increased frontend reliability with automated tests and legacy fixes.',
       ],
     },
+  ];
+
+  projects: Projects[] = [
     {
-      role: 'Frontend Developer',
-      company: 'Everyones Radio',
-      location: 'Remote',
-      period: 'Jun 2024 - Dec 2025',
-      highlights: [
-        'Leading frontend development of a fan engagement platform, enablin artists to monetize using digital licenses.',
-        'Built reusable components and optimized responsive layouts for scalability.',
-        'Integrated Spotify Web API for streaming and fan interaction features.',
-        'Improved API response times and platform performance by 35%.',
-      ],
+      title: 'FanSync',
+      description: 'Built a fan engangement platform to connect music lovers to their favorite artists through digital licenses.',
+      link: 'https://github.com/everyonesradio/fan-sync',
+    },
+    {
+      title: 'AI Pong Game',
+      description: 'Implemented the classic pong game with an AI-controlled opponent paddle.',
+      link: 'https://youtu.be/MRszDr6g67s?si=iBo2mCUJYT4vM427'
     },
   ];
 }
