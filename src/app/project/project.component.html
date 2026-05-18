@@ -32,7 +32,7 @@
                 <a class="link-button" [href]="project.link" target="_blank" rel="noopener noreferrer"
                     [attr.aria-label]="'View ' + project.title + ' (opens in new tab)'">
                     <span>View Live</span>
-                    <img src="youtube.png" alt="" />
+                    <img [src]="project.icon" alt="Project Icon" />
                 </a>
             </p>
         </article>

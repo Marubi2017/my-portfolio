@@ -44,6 +44,7 @@
 
 .period {
     margin-top: 0.6rem;
+    margin-left: 1rem;
     font-size: 0.95rem;
 
 }
@@ -121,7 +122,7 @@
     font-weight: 600;
     color: #ffffff;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 999px;
     background-color: #111827;
     transition:
         background-color 0.15s ease,
@@ -129,7 +130,7 @@
 }
 
 .link-button:hover {
-    background-color: #374151;
+    background-color: #7b7e81;
 }
 
 .link-button:active {

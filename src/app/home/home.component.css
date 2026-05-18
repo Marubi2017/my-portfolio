@@ -93,7 +93,6 @@ header h1 {
     margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
     box-sizing: border-box;
-    background-color: var(--lilac-bg);
     padding: 3rem 1rem 3.5rem;
 }
 

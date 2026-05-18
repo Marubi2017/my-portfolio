@@ -14,6 +14,7 @@ interface Projects {
   title: string;
   description: string;
   link: string;
+  icon: string;
 }
 
 @Component({
@@ -69,11 +70,13 @@ export class ProjectComponent {
       title: 'FanSync',
       description: 'Built a fan engangement platform to connect music lovers to their favorite artists through digital licenses.',
       link: 'https://github.com/everyonesradio/fan-sync',
+      icon: 'github.png',
     },
     {
       title: 'AI Pong Game',
       description: 'Implemented the classic pong game with an AI-controlled opponent paddle.',
-      link: 'https://youtu.be/MRszDr6g67s?si=iBo2mCUJYT4vM427'
+      link: 'https://youtu.be/MRszDr6g67s?si=iBo2mCUJYT4vM427',
+      icon: 'youtube.png',
     },
   ];
 }
