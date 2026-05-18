@@ -1,0 +1,154 @@
+.experience-section {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem 2rem;
+}
+
+.experience-section h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.experience-card {
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.experience-card h2 {
+    margin: 0 0 0.4rem;
+    font-size: 1.2rem;
+}
+
+.meta,
+.period {
+    margin: 0;
+    color: #4b5563;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.meta img,
+.period img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.period {
+    margin-top: 0.6rem;
+    margin-left: 1rem;
+    font-size: 0.95rem;
+
+}
+
+.experience-card ul {
+    margin: 0.9rem 0 0;
+    padding-left: 1.2rem;
+}
+
+.experience-card li {
+    margin-bottom: 0.55rem;
+    line-height: 1.45;
+}
+
+@media (max-width: 640px) {
+    .experience-section h1 {
+        font-size: 1.7rem;
+    }
+
+    .experience-card {
+        padding: 1rem;
+    }
+}
+
+.project-section {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem 3rem;
+}
+
+.project-section h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.project-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.project-card h2 {
+    margin: 0 0 0.75rem;
+    font-size: 1.2rem;
+}
+
+.project-card .desc {
+    margin: 0;
+    flex: 1;
+    color: #374151;
+    line-height: 1.45;
+}
+
+.project-actions {
+    margin: 1rem 0 0;
+}
+
+.link-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.55rem 0.95rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 999px;
+    background-color: #111827;
+    transition:
+        background-color 0.15s ease,
+        transform 0.15s ease;
+}
+
+.link-button:hover {
+    background-color: #7b7e81;
+}
+
+.link-button:active {
+    transform: scale(0.98);
+}
+
+.link-button img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+@media (max-width: 640px) {
+    .project-section h1 {
+        font-size: 1.7rem;
+    }
+
+    .project-card {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,40 @@
+<app-header />
+
+<section class="experience-section">
+    <h1>Experience</h1>
+
+    <article class="experience-card" *ngFor="let experience of experiences">
+        <h2>{{ experience.role }}</h2>
+        <p class="meta">
+            <img src="location.png" alt="Location icon" />
+            <span>{{ experience.company }} - {{ experience.location }}</span>
+        </p>
+        <p class="period">
+            <img src="calendar.png" alt="Calendar icon" />
+            <span>{{ experience.period }}</span>
+        </p>
+
+        <ul>
+            <li *ngFor="let highlight of experience.highlights">{{ highlight }}</li>
+        </ul>
+    </article>
+</section>
+
+<section class="project-section">
+    <h1>Projects</h1>
+    <div class="project-grid">
+        <article class="project-card" *ngFor="let project of projects">
+            <h2>{{ project.title }}</h2>
+            <p class="desc">
+                <span>{{ project.description }}</span>
+            </p>
+            <p class="project-actions">
+                <a class="link-button" [href]="project.link" target="_blank" rel="noopener noreferrer"
+                    [attr.aria-label]="'View ' + project.title + ' (opens in new tab)'">
+                    <span>View Live</span>
+                    <img [src]="project.icon" alt="Project Icon" />
+                </a>
+            </p>
+        </article>
+    </div>
+</section>
