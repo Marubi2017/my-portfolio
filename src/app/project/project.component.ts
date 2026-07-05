@@ -30,7 +30,7 @@ export class ProjectComponent {
       role: 'Web Developer',
       company: 'The Offshore Lab',
       location: 'London, UK',
-      period: 'Jul 2024 - Aug 2025',
+      period: 'Jul 2024 - April 2025',
       highlights: [
         'Built a graphical web interface for Scapy, enabling non-programmers to generate network packets.',
         'Developed dynamic UI components for ARP, IP, and DNS packet configuration.',
