@@ -7,7 +7,7 @@
             <p>Open to collaborating on projects and discussing interesting engineering topics. Feel free to reach out
                 to me.</p>
             @if (!submitted) {
-            <form (ngSubmit)="handleSubmit(form)">
+            <form #contactForm="ngForm" (ngSubmit)="handleSubmit(contactForm)">
                 <input type="text" placeholder="Name" name="name" [(ngModel)]="form.name" [disabled]="isSubmitting"
                     required />
                 <input type="email" placeholder="Email" name="email" [(ngModel)]="form.email" [disabled]="isSubmitting"

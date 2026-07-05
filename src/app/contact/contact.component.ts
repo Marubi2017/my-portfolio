@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { NgForm, FormsModule } from '@angular/forms';
 import emailjs from '@emailjs/browser';
 import { HeaderComponent } from '../header/header.component';
 
@@ -26,7 +26,8 @@ export class ContactComponent {
     return email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/) !== null;
   }
 
-  handleSubmit(form: Form): void {
+  handleSubmit(contactForm: NgForm): void {
+    const form = contactForm.value;
     this.error = '';
     this.submitted = false;
 
@@ -59,8 +60,7 @@ export class ContactComponent {
     )
       .then(() => {
         this.submitted = true;
-        this.form = { name: '', email: '', message: '' };
-
+        contactForm.resetForm();
       })
       .catch(() => {
         this.error = 'Failed to send message.';
