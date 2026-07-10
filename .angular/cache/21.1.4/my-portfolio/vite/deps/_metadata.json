@@ -1,55 +1,55 @@
 {
-  "hash": "3e186e01",
+  "hash": "82f9d8e5",
   "configHash": "cee68e4f",
-  "lockfileHash": "ecd0c585",
-  "browserHash": "42d086f6",
+  "lockfileHash": "805bd260",
+  "browserHash": "f085785d",
   "optimized": {
     "@angular/cdk/bidi": {
       "src": "../../../../../../node_modules/@angular/cdk/fesm2022/bidi.mjs",
       "file": "@angular_cdk_bidi.js",
-      "fileHash": "0177016c",
+      "fileHash": "65b8e462",
       "needsInterop": false
     },
     "@angular/common": {
       "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "d4b4b2a9",
+      "fileHash": "c4c45b41",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "094f5957",
+      "fileHash": "9dfaf9ab",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-      "fileHash": "60ae293e",
+      "fileHash": "f85b7dcb",
       "needsInterop": false
     },
     "@angular/material/button": {
       "src": "../../../../../../node_modules/@angular/material/fesm2022/button.mjs",
       "file": "@angular_material_button.js",
-      "fileHash": "25f7cdfc",
+      "fileHash": "e2e19d94",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "2b6070f3",
+      "fileHash": "7ce48a21",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "eeaca457",
+      "fileHash": "c5cc628e",
       "needsInterop": false
     },
     "@emailjs/browser": {
       "src": "../../../../../../node_modules/@emailjs/browser/es/index.js",
       "file": "@emailjs_browser.js",
-      "fileHash": "9fed2d2b",
+      "fileHash": "71b0699a",
       "needsInterop": false
     }
   },
