@@ -11,14 +11,14 @@ This project contains source for my portfolio website, where I showcase my softw
      npm start 
 ```
 
-# Learn More
+## Learn More
 
 If you're new to the angular framework, checkout out the official documentation:
 
 
 https://angular.dev/essentials - Angular Essentials
 
-# Deploy on Vercel
+## Deploy on Vercel
 
 To deploy your website on Vercel, follow the instructions provided in the official [Vercel Documentation](https://vercel.com/docs/git/vercel-for-github)
 
